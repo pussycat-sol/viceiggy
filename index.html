@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vice Iggy — Community meme coin on Solana</title>
+  <meta name="description" content="Vice Iggy: Leonida's coldest lizard. Community meme coin on Solana.">
+  <meta name="theme-color" content="#ff2d9b">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vice Iggy">
+  <meta property="og:description" content="Vice Iggy: Leonida's coldest lizard. Community meme coin on Solana.">
+  <meta property="og:image" content="logo.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Vice Iggy">
+  <meta name="twitter:description" content="Vice Iggy: Leonida's coldest lizard. Community meme coin on Solana.">
+  <meta name="twitter:image" content="logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <div class="logo-wrap">
+        <img src="logo.png" width="512" height="512" alt="Vice Iggy logo: an iguana in a Hawaiian shirt and pink sunglasses on a palm tree, with a neon sunset skyline">
+      </div>
+      <h1>Vice Iggy</h1>
+      <span class="ticker">$VICEIGGY</span>
+      <p class="tagline">Leonida's coldest lizard 🦎</p>
+      <p class="lede">A community meme coin on Solana.</p>
+      <ul class="flair" aria-hidden="true">
+        <li></li><li></li><li></li><li></li><li></li>
+      </ul>
+    </header>
+
+    <section class="panel" aria-label="Contract and buy links">
+      <p class="contract-label">Solana contract address</p>
+      <div class="contract">
+        <code id="mint">GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB</code>
+        <button type="button" class="copy-btn" id="copy-btn" aria-label="Copy contract address">Copy</button>
+      </div>
+      <div class="actions">
+        <a class="btn btn-buy" href="https://pump.fun/coin/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" rel="noopener noreferrer">
+          Buy on pump.fun
+        </a>
+        <a class="btn btn-chart" href="https://dexscreener.com/solana/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" rel="noopener noreferrer">
+          DexScreener chart
+        </a>
+        <a class="btn btn-scan" href="https://solscan.io/token/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" rel="noopener noreferrer">
+          Solscan
+        </a>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="facts-title">
+      <h2 id="facts-title">The facts</h2>
+      <ul class="facts">
+        <li>
+          <strong>1B supply</strong>
+          <span>One billion tokens, that's the whole supply.</span>
+        </li>
+        <li>
+          <strong>Authorities revoked</strong>
+          <span>Mint and freeze authority are revoked.</span>
+        </li>
+        <li>
+          <strong>No presale</strong>
+          <span>No early allocation and no private sale.</span>
+        </li>
+        <li>
+          <strong>No team bags</strong>
+          <span>No reserved team stash sitting on the side.</span>
+        </li>
+        <li class="facts-wide">
+          <strong>Community meme coin</strong>
+          <span>A community meme coin on Solana. Nothing more, nothing less.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="panel" aria-labelledby="howto-title">
+      <h2 id="howto-title">How to buy</h2>
+      <div class="steps">
+        <article class="step">
+          <div class="step-num">1</div>
+          <h3>Get Phantom</h3>
+          <p>Install the <a href="https://phantom.com/" rel="noopener noreferrer">Phantom</a> wallet app or browser extension.</p>
+        </article>
+        <article class="step">
+          <div class="step-num">2</div>
+          <h3>Add SOL</h3>
+          <p>Send some SOL to your wallet for the buy and for network fees.</p>
+        </article>
+        <article class="step">
+          <div class="step-num">3</div>
+          <h3>Open pump.fun</h3>
+          <p>Go to the official <a href="https://pump.fun/coin/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" rel="noopener noreferrer">Vice Iggy page</a> and buy there.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="chart-title">
+      <h2 id="chart-title">Live chart</h2>
+      <div class="chart-frame">
+        <a class="chart-poster" href="https://dexscreener.com/solana/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" rel="noopener noreferrer">
+          <img src="logo-256.png" width="96" height="96" alt="">
+          <p>Watch the live chart on DexScreener</p>
+          <span class="btn btn-chart">Open DexScreener</span>
+        </a>
+        <iframe
+          id="chart-embed"
+          title="Vice Iggy DexScreener chart"
+          hidden
+          data-src="https://dexscreener.com/solana/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB?embed=1&theme=dark&info=0&trades=0"
+          allow="clipboard-write"
+        ></iframe>
+      </div>
+      <p class="chart-fallback">
+        <button type="button" class="text-btn" id="load-chart">Load live chart here</button>
+        · <a href="https://dexscreener.com/solana/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" rel="noopener noreferrer">open on DexScreener</a>
+        · <a href="https://solscan.io/token/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" rel="noopener noreferrer">view on Solscan</a>
+      </p>
+    </section>
+
+    <!-- Hidden until TELEGRAM_URL or X_URL is filled in the config at the bottom of this page. -->
+    <section class="panel" id="community" hidden aria-labelledby="community-title">
+      <h2 id="community-title">Community</h2>
+      <div class="socials">
+        <a class="btn btn-social" id="social-telegram" href="" hidden rel="noopener noreferrer">Telegram</a>
+        <a class="btn btn-social" id="social-x" href="" hidden rel="noopener noreferrer">X</a>
+      </div>
+    </section>
+
+    <aside class="disclaimer">
+      <strong>Not financial advice</strong>
+      Vice Iggy is a meme coin with no utility. This is not financial advice. Buying or trading it is high risk, and you can lose everything you put in. Do your own research.
+    </aside>
+
+    <footer>
+      <p>Vice Iggy · Solana · Community meme coin</p>
+      <p>Contact: <a href="mailto:7rvxse8f@mail.grokbot.com">7rvxse8f@mail.grokbot.com</a></p>
+    </footer>
+  </main>
+
+  <script>
+    // Fill these with Vice Iggy-only links when accounts exist. Leave blank to keep hidden.
+    const TELEGRAM_URL = ""; // e.g. "https://t.me/your_public_channel"
+    const X_URL = "";        // e.g. "https://x.com/your_viceiggy_account"
+
+    const MINT = "GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB";
+
+    (function showSocials() {
+      const community = document.getElementById("community");
+      const tg = document.getElementById("social-telegram");
+      const x = document.getElementById("social-x");
+      let any = false;
+      if (TELEGRAM_URL) {
+        tg.href = TELEGRAM_URL;
+        tg.hidden = false;
+        any = true;
+      }
+      if (X_URL) {
+        x.href = X_URL;
+        x.hidden = false;
+        any = true;
+      }
+      if (any) community.hidden = false;
+    })();
+
+    const loadChart = document.getElementById("load-chart");
+    const embed = document.getElementById("chart-embed");
+    loadChart.addEventListener("click", function () {
+      if (!embed.getAttribute("src")) embed.src = embed.getAttribute("data-src");
+      embed.hidden = false;
+      document.querySelector(".chart-poster").hidden = true;
+      document.querySelector(".chart-frame").classList.add("is-live");
+      loadChart.hidden = true;
+    });
+
+    const copyBtn = document.getElementById("copy-btn");
+    copyBtn.addEventListener("click", async function () {
+      try {
+        await navigator.clipboard.writeText(MINT);
+      } catch (err) {
+        const range = document.createRange();
+        range.selectNodeContents(document.getElementById("mint"));
+        const sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+        document.execCommand("copy");
+        sel.removeAllRanges();
+      }
+      copyBtn.textContent = "Copied!";
+      copyBtn.classList.add("copied");
+      setTimeout(function () {
+        copyBtn.textContent = "Copy";
+        copyBtn.classList.remove("copied");
+      }, 1800);
+    });
+  </script>
+</body>
+</html>
