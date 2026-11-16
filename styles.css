@@ -310,6 +310,26 @@ h1 {
   color: var(--white);
 }
 
+.find-us-lead {
+  text-align: center;
+  margin: 0 0 4px;
+  font-size: 0.95rem;
+}
+
+.find-us .btn-buy {
+  grid-column: auto;
+}
+
+.btn-jup {
+  background: var(--sand);
+  color: var(--navy);
+}
+
+.btn-vote {
+  background: var(--white);
+  color: var(--pink-deep);
+}
+
 .facts {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
