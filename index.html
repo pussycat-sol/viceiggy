@@ -6,14 +6,18 @@
   <title>Vice Iggy — Community meme coin on Solana</title>
   <meta name="description" content="Vice Iggy: Leonida's coldest lizard. Community meme coin on Solana.">
   <meta name="theme-color" content="#ff2d9b">
+  <link rel="canonical" href="https://pussycat-sol.github.io/viceiggy/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Vice Iggy">
+  <meta property="og:url" content="https://pussycat-sol.github.io/viceiggy/">
+  <meta property="og:title" content="Vice Iggy — Leonida's coldest lizard">
   <meta property="og:description" content="Vice Iggy: Leonida's coldest lizard. Community meme coin on Solana.">
-  <meta property="og:image" content="logo.png">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Vice Iggy">
+  <meta property="og:image" content="https://pussycat-sol.github.io/viceiggy/logo.png">
+  <meta property="og:image:alt" content="Vice Iggy logo: an iguana in a Hawaiian shirt and pink sunglasses on a palm tree, with a neon sunset skyline">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vice Iggy — Leonida's coldest lizard">
   <meta name="twitter:description" content="Vice Iggy: Leonida's coldest lizard. Community meme coin on Solana.">
-  <meta name="twitter:image" content="logo.png">
+  <meta name="twitter:image" content="https://pussycat-sol.github.io/viceiggy/logo.png">
+  <meta name="twitter:image:alt" content="Vice Iggy logo: an iguana in a Hawaiian shirt and pink sunglasses on a palm tree, with a neon sunset skyline">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
   <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -34,40 +38,80 @@
       </ul>
     </header>
 
-    <section class="panel" aria-label="Contract and buy links">
+    <section class="countdown" id="countdown" aria-live="polite">
+      <p class="countdown-label" id="countdown-label">GTA 6 launch countdown</p>
+      <p class="countdown-sub" id="countdown-sub">November 19, 2026 · midnight ET</p>
+      <div class="countdown-grid" id="countdown-grid">
+        <div class="countdown-unit"><strong id="cd-d">--</strong><span>Days</span></div>
+        <div class="countdown-unit"><strong id="cd-h">--</strong><span>Hours</span></div>
+        <div class="countdown-unit"><strong id="cd-m">--</strong><span>Minutes</span></div>
+        <div class="countdown-unit"><strong id="cd-s">--</strong><span>Seconds</span></div>
+      </div>
+      <p class="countdown-live" id="countdown-live" hidden>GTA 6 is out — Vice Iggy is live</p>
+    </section>
+
+    <section class="panel cta" aria-label="Contract and buy links">
       <p class="contract-label">Solana contract address</p>
       <div class="contract">
         <code id="mint">GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB</code>
         <button type="button" class="copy-btn" id="copy-btn" aria-label="Copy contract address">Copy</button>
       </div>
       <div class="actions">
-        <a class="btn btn-buy" href="https://pump.fun/coin/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" rel="noopener noreferrer">
-          Buy on pump.fun
-        </a>
-        <a class="btn btn-chart" href="https://dexscreener.com/solana/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" rel="noopener noreferrer">
-          DexScreener chart
-        </a>
-        <a class="btn btn-scan" href="https://solscan.io/token/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" rel="noopener noreferrer">
-          Solscan
-        </a>
-        <a class="btn btn-social" href="https://discord.gg/2yKd36QBSC" target="_blank" rel="noopener">
-          Join our Discord
-        </a>
+        <a class="btn btn-buy" href="https://jup.ag/swap/SOL-GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" target="_blank" rel="noopener noreferrer">Buy on Jupiter</a>
+        <a class="btn btn-chart" href="https://pump.fun/coin/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" target="_blank" rel="noopener noreferrer">Buy on pump.fun</a>
       </div>
     </section>
 
+    <section class="panel" aria-labelledby="howto-title">
+      <h2 id="howto-title">How to buy</h2>
+      <div class="steps">
+        <article class="step">
+          <div class="step-num">1</div>
+          <h3>Get Phantom</h3>
+          <p>Install the <a href="https://phantom.com/" target="_blank" rel="noopener noreferrer">Phantom</a> wallet app or browser extension.</p>
+        </article>
+        <article class="step">
+          <div class="step-num">2</div>
+          <h3>Get SOL</h3>
+          <p>Send some SOL to your wallet for the buy and for network fees.</p>
+        </article>
+        <article class="step">
+          <div class="step-num">3</div>
+          <h3>Swap</h3>
+          <p>Swap SOL for $VICEIGGY on <a href="https://jup.ag/swap/SOL-GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" target="_blank" rel="noopener noreferrer">Jupiter</a> or <a href="https://pump.fun/coin/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" target="_blank" rel="noopener noreferrer">pump.fun</a>. Always match the contract above.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="chart-title">
+      <h2 id="chart-title">Live chart</h2>
+      <div class="chart-frame is-live">
+        <iframe
+          id="chart-embed"
+          title="Vice Iggy live chart on DexScreener"
+          src="https://dexscreener.com/solana/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB?embed=1&theme=dark&info=0"
+          loading="lazy"
+          allow="clipboard-write"
+        ></iframe>
+      </div>
+      <p class="chart-fallback">
+        Chart not loading? <a href="https://dexscreener.com/solana/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" target="_blank" rel="noopener noreferrer">Open on DexScreener</a>
+        · <a href="https://solscan.io/token/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" target="_blank" rel="noopener noreferrer">View on Solscan</a>
+      </p>
+    </section>
 
     <section class="panel find-us" aria-labelledby="findus-title">
-      <h2 id="findus-title">Where to trade &amp; track</h2>
-      <p class="find-us-lead">Trade or follow $VICEIGGY on these sites. Always match the contract address above.</p>
+      <h2 id="findus-title">Where to find us</h2>
+      <p class="find-us-lead">Trade, track, or follow $VICEIGGY on these sites. Always match the contract address above.</p>
       <div class="actions">
-        <a class="btn btn-buy" href="https://pump.fun/coin/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" target="_blank" rel="noopener noreferrer">Trade on pump.fun</a>
+        <a class="btn btn-buy" href="https://pump.fun/coin/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" target="_blank" rel="noopener noreferrer">pump.fun</a>
         <a class="btn btn-jup" href="https://jup.ag/tokens/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" target="_blank" rel="noopener noreferrer">Jupiter</a>
         <a class="btn btn-jup" href="https://birdeyeterminal.com/solana/token/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" target="_blank" rel="noopener noreferrer">Birdeye</a>
         <a class="btn btn-chart" href="https://dexscreener.com/solana/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" target="_blank" rel="noopener noreferrer">DexScreener</a>
         <a class="btn btn-chart" href="https://www.geckoterminal.com/solana/tokens/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" target="_blank" rel="noopener noreferrer">GeckoTerminal</a>
         <a class="btn btn-scan" href="https://solscan.io/token/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" target="_blank" rel="noopener noreferrer">Solscan</a>
         <a class="btn btn-vote" href="https://coinvote.cc/coin/Vice-Iggy" target="_blank" rel="noopener noreferrer">Coinvote</a>
+        <a class="btn btn-vote" href="https://ngmi.today/billboard/vice-iggy" target="_blank" rel="noopener noreferrer">NGMI Billboard</a>
         <a class="btn btn-social" href="https://x.com/ViceIggySol" target="_blank" rel="noopener noreferrer">X @ViceIggySol</a>
         <a class="btn btn-social" href="https://discord.gg/2yKd36QBSC" target="_blank" rel="noopener noreferrer">Discord</a>
       </div>
@@ -99,59 +143,6 @@
       </ul>
     </section>
 
-    <section class="panel" aria-labelledby="howto-title">
-      <h2 id="howto-title">How to buy</h2>
-      <div class="steps">
-        <article class="step">
-          <div class="step-num">1</div>
-          <h3>Get Phantom</h3>
-          <p>Install the <a href="https://phantom.com/" rel="noopener noreferrer">Phantom</a> wallet app or browser extension.</p>
-        </article>
-        <article class="step">
-          <div class="step-num">2</div>
-          <h3>Add SOL</h3>
-          <p>Send some SOL to your wallet for the buy and for network fees.</p>
-        </article>
-        <article class="step">
-          <div class="step-num">3</div>
-          <h3>Open pump.fun</h3>
-          <p>Go to the official <a href="https://pump.fun/coin/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" rel="noopener noreferrer">Vice Iggy page</a> and buy there.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="panel" aria-labelledby="chart-title">
-      <h2 id="chart-title">Live chart</h2>
-      <div class="chart-frame">
-        <a class="chart-poster" href="https://dexscreener.com/solana/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" rel="noopener noreferrer">
-          <img src="logo-256.png" width="96" height="96" alt="">
-          <p>Watch the live chart on DexScreener</p>
-          <span class="btn btn-chart">Open DexScreener</span>
-        </a>
-        <iframe
-          id="chart-embed"
-          title="Vice Iggy DexScreener chart"
-          hidden
-          data-src="https://dexscreener.com/solana/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB?embed=1&theme=dark&info=0&trades=0"
-          allow="clipboard-write"
-        ></iframe>
-      </div>
-      <p class="chart-fallback">
-        <button type="button" class="text-btn" id="load-chart">Load live chart here</button>
-        · <a href="https://dexscreener.com/solana/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" rel="noopener noreferrer">open on DexScreener</a>
-        · <a href="https://solscan.io/token/GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB" rel="noopener noreferrer">view on Solscan</a>
-      </p>
-    </section>
-
-    <!-- Hidden until TELEGRAM_URL or X_URL is filled in the config at the bottom of this page. -->
-    <section class="panel" id="community" hidden aria-labelledby="community-title">
-      <h2 id="community-title">Community</h2>
-      <div class="socials">
-        <a class="btn btn-social" id="social-telegram" href="" hidden rel="noopener noreferrer">Telegram</a>
-        <a class="btn btn-social" id="social-x" href="" hidden rel="noopener noreferrer">X</a>
-      </div>
-    </section>
-
     <aside class="disclaimer">
       <strong>Not financial advice</strong>
       Vice Iggy is a meme coin with no utility. This is not financial advice. Buying or trading it is high risk, and you can lose everything you put in. Do your own research.
@@ -159,45 +150,53 @@
 
     <footer>
       <p>Vice Iggy · Solana · Community meme coin</p>
-    <p>Contact: <a href="mailto:pussycatsol@tutamail.com">pussycatsol@tutamail.com</a></p>
-      <p><a href="https://discord.gg/2yKd36QBSC" target="_blank" rel="noopener">Join our Discord</a></p>
+      <p>Contact: <a href="mailto:pussycatsol@tutamail.com">pussycatsol@tutamail.com</a></p>
+      <p><a href="https://discord.gg/2yKd36QBSC" target="_blank" rel="noopener noreferrer">Join our Discord</a></p>
     </footer>
   </main>
 
   <script>
-    // Fill these with Vice Iggy-only links when accounts exist. Leave blank to keep hidden.
-    const TELEGRAM_URL = ""; // e.g. "https://t.me/your_public_channel"
-    const X_URL = "";        // e.g. "https://x.com/your_viceiggy_account"
-
     const MINT = "GuHhTL9vxRzZYHqKwXQZ8CyMsopMCoWJEBXUGT5rBNAB";
+    // Midnight Eastern Time on Nov 19, 2026 (EST, UTC-5).
+    const LAUNCH_AT = new Date("2026-11-19T00:00:00-05:00").getTime();
 
-    (function showSocials() {
-      const community = document.getElementById("community");
-      const tg = document.getElementById("social-telegram");
-      const x = document.getElementById("social-x");
-      let any = false;
-      if (TELEGRAM_URL) {
-        tg.href = TELEGRAM_URL;
-        tg.hidden = false;
-        any = true;
+    (function countdown() {
+      const grid = document.getElementById("countdown-grid");
+      const live = document.getElementById("countdown-live");
+      const label = document.getElementById("countdown-label");
+      const sub = document.getElementById("countdown-sub");
+      const days = document.getElementById("cd-d");
+      const hours = document.getElementById("cd-h");
+      const mins = document.getElementById("cd-m");
+      const secs = document.getElementById("cd-s");
+
+      function pad(n) {
+        return String(n).padStart(2, "0");
       }
-      if (X_URL) {
-        x.href = X_URL;
-        x.hidden = false;
-        any = true;
+
+      function tick() {
+        const diff = LAUNCH_AT - Date.now();
+        if (diff <= 0) {
+          grid.hidden = true;
+          label.hidden = true;
+          sub.hidden = true;
+          live.hidden = false;
+          return;
+        }
+        live.hidden = true;
+        grid.hidden = false;
+        label.hidden = false;
+        sub.hidden = false;
+        const totalSec = Math.floor(diff / 1000);
+        days.textContent = pad(Math.floor(totalSec / 86400));
+        hours.textContent = pad(Math.floor((totalSec % 86400) / 3600));
+        mins.textContent = pad(Math.floor((totalSec % 3600) / 60));
+        secs.textContent = pad(totalSec % 60);
+        setTimeout(tick, 1000);
       }
-      if (any) community.hidden = false;
+
+      tick();
     })();
-
-    const loadChart = document.getElementById("load-chart");
-    const embed = document.getElementById("chart-embed");
-    loadChart.addEventListener("click", function () {
-      if (!embed.getAttribute("src")) embed.src = embed.getAttribute("data-src");
-      embed.hidden = false;
-      document.querySelector(".chart-poster").hidden = true;
-      document.querySelector(".chart-frame").classList.add("is-live");
-      loadChart.hidden = true;
-    });
 
     const copyBtn = document.getElementById("copy-btn");
     copyBtn.addEventListener("click", async function () {

@@ -584,6 +584,8 @@ footer a:focus-visible {
   .actions,
   .steps,
   .facts { grid-template-columns: 1fr; }
+  .cta .actions,
+  .find-us .actions { grid-template-columns: 1fr; }
   .facts .facts-wide { grid-column: auto; }
   .contract { flex-direction: column; }
   .copy-btn {
@@ -591,4 +593,90 @@ footer a:focus-visible {
     border-top: 3px solid var(--navy);
     padding: 12px;
   }
+}
+
+
+.countdown {
+  background: var(--navy);
+  color: var(--white);
+  border: 4px solid var(--navy);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow), 0 0 0 3px var(--teal), 0 0 28px rgba(255, 45, 155, 0.4);
+  padding: 20px 18px 22px;
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.countdown-label {
+  font-family: Fredoka, Nunito, sans-serif;
+  font-weight: 650;
+  font-size: 1.15rem;
+  letter-spacing: 0.04em;
+  color: var(--teal);
+  margin: 0 0 4px;
+}
+
+.countdown-sub {
+  margin: 0 0 14px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #ffe9f6;
+}
+
+.countdown-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.countdown-unit {
+  background: var(--navy-soft);
+  border: 2px solid var(--pink);
+  border-radius: 16px;
+  padding: 10px 4px 12px;
+}
+
+.countdown-unit strong {
+  display: block;
+  font-family: Fredoka, Nunito, sans-serif;
+  font-size: clamp(1.45rem, 5.5vw, 2.15rem);
+  line-height: 1;
+  color: var(--white);
+  text-shadow: 0 0 10px rgba(255, 45, 155, 0.8);
+}
+
+.countdown-unit span {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+
+.countdown-live {
+  font-family: Fredoka, Nunito, sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.25rem, 4.2vw, 1.75rem);
+  color: var(--teal);
+  margin: 8px 0 0;
+  text-shadow: 0 0 14px rgba(20, 224, 208, 0.65);
+}
+
+.countdown-grid[hidden],
+.countdown-label[hidden],
+.countdown-sub[hidden],
+.countdown-live[hidden] {
+  display: none !important;
+}
+
+.cta .actions {
+  grid-template-columns: 1fr;
+}
+
+.find-us .actions {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 }
